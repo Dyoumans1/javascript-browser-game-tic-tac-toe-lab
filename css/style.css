@@ -1,0 +1,48 @@
+body {
+    background-color: purple;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+h1 {
+    font-size: 90px;
+    color: palegreen;
+}
+
+h2, #message {
+    color: goldenrod;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+ }
+ 
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 625px;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 10px solid black;
+    font-size: 138px;
+    text-align: center;
+  }
+  button {
+    margin-top:100px;
+    padding: 50px 100px;
+    font-size: 80px;
+    border: 10px solid black;
+  }
+  
