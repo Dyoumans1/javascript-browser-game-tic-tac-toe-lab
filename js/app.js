@@ -158,3 +158,4 @@ squareEls.forEach((square) => {
 resetbtnEl.addEventListener('click', init);
 
 
+const hello = 'Hello world!';
